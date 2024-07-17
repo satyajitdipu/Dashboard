@@ -1,0 +1,64 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+# Environments #
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js #
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React #
+build/
+public/
+
+# macOS #
+.DS_Store
+
+# Windows #
+Thumbs.db
+ehthumbs.db
+
+# IDEs #
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Miscellaneous #
+dist/
+coverage/
+.cache/
+*.bak
+*.tmp
+*.lock
+.pnp
+.pnp.js
+
+# Flask #
+instance/
+.webassets-cache
+
+# Heroku #
+/heroku/node_modules/
+*.profile
+
+# Pytest #
+.cache
